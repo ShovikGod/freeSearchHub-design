@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+
+footer{
+    background: #4586FF !important;
+    color: #fff;
+}
+
+.credits{
+    background: #306de0;
+    font-family: 'Revalia', cursive;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    
+}
+
+@media only screen and (max-width: 920px) {
+    .credits{
+        font-size: 0.8rem;
+    }
+}
+
+.black{
+    color: #32424A !important;
+}
+
+a{
+    text-decoration: none;
+}

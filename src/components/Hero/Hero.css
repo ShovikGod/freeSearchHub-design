@@ -1,0 +1,34 @@
+.carousel-inner{
+    max-height: 600px;
+    border-top-right-radius: 5000px;
+    border-bottom-right-radius: 5000px;
+}
+
+.carousel-item img{
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 1280px) {
+    .carousel-item img{
+        transform: translateY(-10rem);
+    }
+}
+
+div.carousel-indicators{
+    display: inline-block;
+    margin: 0;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.carousel-indicators button{
+    display: block;
+    width: 0.6rem !important;
+    height: 0.6rem !important;
+    border-radius: 50%;
+}
+
+a.carousel-control-prev,
+a.carousel-control-next{
+    display: none;
+}
